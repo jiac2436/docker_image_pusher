@@ -1,6 +1,18 @@
 nginx
 #支持私库
-k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-xhofe/alist:latest
+mongo:8.0
+nats:2.15-alpine
+traefik:v3.7.15
+chrislusf/seaweedfs:4.48
+mendersoftware/create-artifact-worker:v4.1.5
+mendersoftware/deployments:v4.1.5
+mendersoftware/deviceauth:v4.1.5
+mendersoftware/deviceconfig:v4.1.5
+mendersoftware/deviceconnect:v4.1.5
+mendersoftware/gui:v4.1.5
+mendersoftware/inventory:v4.1.5
+mendersoftware/iot-manager:v4.1.5
+mendersoftware/useradm:v4.1.5
+mendersoftware/workflows:v4.1.5
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
